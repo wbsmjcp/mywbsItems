@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Module Development Challenges Visualisation</title>
     <style>
-        body { font-family: sans-serif; background-color: #f4f4f4; margin: 0; display: flex; flex-direction: column; align-items: center; min-height: 100vh; }
+        body { font-family: sans-serif; background-color: #f4f4f4; margin: 0; display: flex; flex-direction: column; align-items: center; min-height: 20vh; }
         #viz-container { width: 90%; max-width: 1200px; padding: 40px; background-color: #fff; border-radius: 10px; box-shadow: 0 4px 15px rgba(0,0,0,0.1); position: relative; margin: 20px 0; }
         .row { display: flex; align-items: center; justify-content: space-between; }
         .person-container { text-align: center; width: 250px; position: relative; }
@@ -16,7 +16,7 @@
         .academic .person-text { color: #3498db; }
         .professional-staff .person-circle { border-color: #27ae60; } /* Green for Staff */
         .professional-staff .person-text { color: #27ae60; }
-        #factors-list { width: 40%; text-align: center; display: flex; flex-direction: column; gap: 10px; padding: 20px 0; }
+        #factors-list { width: 40%; text-align: center; display: flex; flex-direction: column; gap: 2px; padding: 10px 0; }
         .factor-item { padding: 10px 20px; border-radius: 5px; cursor: pointer; transition: background 0.3s ease, border-color 0.3s ease; font-size: 1rem; color: #333; position: relative; }
         .common { border: 2px solid #ddd; }
         .uncommon-academic { border: 2px solid #ddd; }
@@ -39,7 +39,7 @@
 <body>
 
     <h1 style="color: #333; margin: 20px 0;">Why Module Development Takes a While</h1>
-    <p style="color: #555; text-align: center; max-width: 800px; margin-bottom: 30px;">This interactive visualisation highlights common and distinct factors impacting module development timelines from the perspective of Academic and Professional Service Staff. Hover over a factor to see the connection.</p>
+    <p style="color: #555; text-align: center; max-width: 800px; margin-bottom: 15px;">This interactive visualisation highlights common and distinct factors impacting module development timelines from the perspective of Academic and Professional Service Staff. Hover over a factor to see the connection.</p>
 
     <div id="viz-container">
         <!-- SVG lines container -->
